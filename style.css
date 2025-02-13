@@ -1,0 +1,289 @@
+*{
+     margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+/* nav{
+    display: flex;
+    /* margin: 0 80px 0 60px; 
+    margin-left: 10%;
+}
+
+
+ 
+
+
+
+/* nav a{
+    color:  rgb(75, 38, 38);
+    /* background-color: rgb(202, 162, 240); */
+    /* display: inline-block; */
+    /* display: flex; 
+  
+   
+} 
+nav div a{
+     
+    margin-left: 30%;
+    display: inline-block;
+    /* width: %; */
+    /* margin: 16px  0  0  40px; */
+    /* text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+     padding-right: 50px;
+     margin-right: -50px; 
+}
+
+nav a:hover{
+  color:  #162938;
+  text-decoration: underline;
+   
+}
+
+  h2{
+    color: rgb(71, 71, 228);
+    margin-top: 10px;
+    margin-left: -80px;
+} */
+ .navbar{
+ 
+  
+  
+ }
+.navbar-div{ 
+   position: absolute;
+   display: flex;
+   box-sizing: border-box;
+   top: 0;
+   left: 0;
+  background-color:  rgb(51, 51, 192); 
+  padding: 10px;
+  width: 100%;
+  display: flex; 
+   
+  align-items: center;
+  z-index: 100;
+  border-radius: 20px;
+   
+}
+.navbar-div a{
+
+  position:  relative;
+  color: white;  
+  text-decoration: none; 
+   margin-right: 30px; 
+  /* padding: 25px; */
+  /* margin: 0 0 0 20px; */
+  font-size: 1em;
+   
+
+}
+
+.navbar_div{
+  position:  relative;
+  color: white;  
+  text-decoration: none; 
+   margin-right: 30px; 
+  font-size: 1em;
+  border-bottom: 1px solid gray;
+  display: flex;
+ 
+  
+}
+.navbar_div a{
+  margin: 30px 30px 25px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar_div a:hover{
+  text-decoration: underline;
+  padding: 2px;
+}
+
+
+
+nav h2{
+  color: rgb(69, 69, 214);
+  margin:  25px
+  
+}  
+
+.login{
+  position: absolute;
+  right: 0;
+  margin:15px 30px 25px 30px ;
+}
+.bnt-logbin{
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: transparent;
+  color:  #162938;
+  height: 20px;
+    font-size: 16px;
+    border: none;
+    /* transform: translateY(-50%); */
+    /* justify-content: center; */
+  
+}
+
+
+
+.bnt-logbin:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
+.btn-signup{
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  height: 20px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+}
+
+.header{
+  top: 15px;
+}
+
+.container{
+  position: absolute;
+  width: 50%;
+  height: 550px;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background: url('images.jfif') no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-top: 0;
+  margin-left: 50%;
+  
+}
+
+.header img{
+  margin: 40px 50px 20px -20% ;
+  height: 400px;
+  width: 100%;
+}
+
+.header h1{
+  width:  30%;
+  margin: 39px 30px 25px 10%;
+}
+
+
+.header p{
+  font-size: 20px;
+  width:  30%;
+  margin: 39px 30px 25px 10%;
+}
+
+.button{
+  display: inline;
+}
+
+.button1{
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+
+.button1:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+
+.button2{
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+
+.button2:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+
+
+.button3{
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.button3:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+
+
+.section1{
+  border: 1px solid black;
+  padding: -50px;
+  margin-top: 15%;
+   margin-left: 10%;
+   width: 80%;
+  /* margin-right: 10%;*/ 
+  border-radius: 30px; 
+}
+
+.section1 h2{
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.section1 p{
+  margin-left: 10%;
+  width: 30%;
+}
+
+
+.section1 img{
+  height: 255px;
+  width: 10%px;
+  margin-left: 60%;
+  margin-top: -20%;
+  border: 1px solid transparent;
+ border-radius: 20px;
+  margin-bottom: -23px;
+
+
+}
+.section1 a{
+  margin-top: 0px;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  color: black;
+  font-size: 18px;
+}
+
+.section2{
+  margin-top: 5%;
+  background-color: rgb(225, 209, 241);
+  padding: 40px;
+}
+
+.section2 h2{
+  display: flex;
+}
